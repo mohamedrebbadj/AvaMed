@@ -1,0 +1,1 @@
+$(document).ready(function(){var a;$(".navbar-toggler").on("click",function(){(a=$($(this).attr("data-target"))).hasClass("active")?(a.animate({left:"-100%"},500),a.removeClass("active")):(a.animate({left:0},500),a.addClass("active"))}),$(window).on("resize",function(){1400<$(window).width()&&a.css("left","0")})});
